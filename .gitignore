@@ -1,6 +1,4 @@
 .terraform/*
-# provider.tf
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfvars
-*.bk
