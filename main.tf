@@ -5,7 +5,7 @@ locals {
 }
 
 module "service_principal" {
-    source = "service_principal"
+    source = "./service_principal"
     sp_name             = "${local.cluster_name}"
 }
 
